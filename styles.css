@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff; /* Set main background color to white */
+    margin: 0;
+    padding: 0;
+}
+
+.countdown-container {
+    background-color: #e8eca2; /* Set countdown container background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 800px; /* Increase the max-width to make the container wider */
+}
+
+.countdown-container-text {
+    background-color: #e8eca2; /* Set countdown container background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 800px; /* Increase the max-width to make the container wider */
+}
+
+h1 {
+    color: #e48d40;
+}
+
+#countdown {
+    font-size: 24px;
+    color: #0099ff;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the countdown horizontally */
+}
+
+#countdown > span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    margin: 0 5px; /* Add some spacing between countdown components */
+}
+
+#countdown .label {
+    font-size: 18px;
+    color: #666666;
+}
+
+.save-the-date {
+    background-color: #e8eca2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.save-the-date h2 {
+    color: #1a4caa;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.calendar-month,
+.calendar-day,
+.calendar-year {
+    background-color: #ffdb58;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #333333;
+}
+
+.marriage-date {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+    background-color: #ffdb58; /* Add a background color */
+    padding: 10px 20px; /* Add padding for a pill-like appearance */
+    border-radius: 20px; /* Round the corners */
+    display: inline-block; /* Make it inline while preserving block styling */
+}
+
+.countdown-div {
+    background-color: #dbddca;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #333333;
+}
+
+.countdown-paragraph {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #09a49fda;
+    margin-top: 15px;
+    font-family: 'Times New Roman', serif; /* Use Times New Roman */
+    font-weight: normal; /* Use normal weight */
+}
